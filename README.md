@@ -115,7 +115,7 @@ uv sync
 Copy-Item .env.example .env
 ```
 
-在 `backend/.env` 中填写 MySQL 和模型配置，然后启动服务：
+在 `backend/.env` 中填写 MySQL 和模型配置，然后启动服务(在小皮工具中开启Mysql8.0服务)：
 
 ```powershell
 uv run python -m uvicorn main:app --reload --port 8000
