@@ -1,0 +1,26 @@
+# Environment
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Frontend
+node_modules/
+dist/
+frontend/*.log
+
+# Backend runtime
+backend/*.log
+backend/data/chroma_db/
+
+# Editors / OS
+.claude/
+.vscode/
+.idea/
+.DS_Store
